@@ -9,7 +9,7 @@ jobs:
     - name: build
       run: |
         npm i
-        sh build.sh
+        bash build.sh
     - name: Setup Pages
       uses: actions/configure-pages@v2
     - name: Upload artifact
